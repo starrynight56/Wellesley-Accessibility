@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E47EAD4E1D067DAE00AEEB8E"
+               BlueprintIdentifier = "E4910ECF1D07E40B0000AD99"
                BuildableName = "WellesleyAccessibility.app"
                BlueprintName = "WellesleyAccessibility"
                ReferencedContainer = "container:WellesleyAccessibility.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E47EAD4E1D067DAE00AEEB8E"
+            BlueprintIdentifier = "E4910ECF1D07E40B0000AD99"
             BuildableName = "WellesleyAccessibility.app"
             BlueprintName = "WellesleyAccessibility"
             ReferencedContainer = "container:WellesleyAccessibility.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E47EAD4E1D067DAE00AEEB8E"
+            BlueprintIdentifier = "E4910ECF1D07E40B0000AD99"
             BuildableName = "WellesleyAccessibility.app"
             BlueprintName = "WellesleyAccessibility"
             ReferencedContainer = "container:WellesleyAccessibility.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E47EAD4E1D067DAE00AEEB8E"
+            BlueprintIdentifier = "E4910ECF1D07E40B0000AD99"
             BuildableName = "WellesleyAccessibility.app"
             BlueprintName = "WellesleyAccessibility"
             ReferencedContainer = "container:WellesleyAccessibility.xcodeproj">

@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  WellesleyAccessibility
 //
-//  Created by Vikram Mullick on 6/6/16.
+//  Created by Vikram Mullick on 6/8/16.
 //  Copyright © 2016 Rosanne and Vikram. All rights reserved.
 //
 
 import UIKit
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        GMSServices.provideAPIKey("AIzaSyDbGTt4Sn7DNj7OsT35Wdd8RqiOpcvHfIM")
+
         return true
     }
 

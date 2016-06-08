@@ -7,62 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E47EAD531D067DAF00AEEB8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47EAD521D067DAF00AEEB8E /* AppDelegate.swift */; };
-		E47EAD551D067DAF00AEEB8E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47EAD541D067DAF00AEEB8E /* FirstViewController.swift */; };
-		E47EAD571D067DAF00AEEB8E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47EAD561D067DAF00AEEB8E /* SecondViewController.swift */; };
-		E47EAD5A1D067DAF00AEEB8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47EAD581D067DAF00AEEB8E /* Main.storyboard */; };
-		E47EAD5C1D067DAF00AEEB8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47EAD5B1D067DAF00AEEB8E /* Assets.xcassets */; };
-		E47EAD5F1D067DAF00AEEB8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47EAD5D1D067DAF00AEEB8E /* LaunchScreen.storyboard */; };
+		AA83DF10D5459D34E70229FA /* libPods-WellesleyAccessibility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB111A3098669BB23D9F7F7 /* libPods-WellesleyAccessibility.a */; };
+		E4910ED41D07E40B0000AD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4910ED31D07E40B0000AD99 /* AppDelegate.swift */; };
+		E4910ED61D07E40B0000AD99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4910ED51D07E40B0000AD99 /* ViewController.swift */; };
+		E4910ED91D07E40B0000AD99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4910ED71D07E40B0000AD99 /* Main.storyboard */; };
+		E4910EDB1D07E40B0000AD99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4910EDA1D07E40B0000AD99 /* Assets.xcassets */; };
+		E4910EDE1D07E40B0000AD99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4910EDC1D07E40B0000AD99 /* LaunchScreen.storyboard */; };
+		E4910EE61D07E4150000AD99 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E4910EE51D07E4150000AD99 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E47EAD4F1D067DAE00AEEB8E /* WellesleyAccessibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellesleyAccessibility.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E47EAD521D067DAF00AEEB8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E47EAD541D067DAF00AEEB8E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E47EAD561D067DAF00AEEB8E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		E47EAD591D067DAF00AEEB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E47EAD5B1D067DAF00AEEB8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E47EAD5E1D067DAF00AEEB8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E47EAD601D067DAF00AEEB8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0589F0075D048AE0C683843 /* Pods-WellesleyAccessibility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellesleyAccessibility.release.xcconfig"; path = "Pods/Target Support Files/Pods-WellesleyAccessibility/Pods-WellesleyAccessibility.release.xcconfig"; sourceTree = "<group>"; };
+		C37797FA1F7762D2E279C9CF /* Pods-WellesleyAccessibility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellesleyAccessibility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WellesleyAccessibility/Pods-WellesleyAccessibility.debug.xcconfig"; sourceTree = "<group>"; };
+		E4910ED01D07E40B0000AD99 /* WellesleyAccessibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellesleyAccessibility.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4910ED31D07E40B0000AD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4910ED51D07E40B0000AD99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4910ED81D07E40B0000AD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4910EDA1D07E40B0000AD99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4910EDD1D07E40B0000AD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4910EDF1D07E40B0000AD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4910EE51D07E4150000AD99 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4910EE91D07EBA90000AD99 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BridgeHeader.h; path = ../BridgeHeader.h; sourceTree = "<group>"; };
+		FDB111A3098669BB23D9F7F7 /* libPods-WellesleyAccessibility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WellesleyAccessibility.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E47EAD4C1D067DAE00AEEB8E /* Frameworks */ = {
+		E4910ECD1D07E40B0000AD99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA83DF10D5459D34E70229FA /* libPods-WellesleyAccessibility.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E47EAD461D067DAE00AEEB8E = {
+		8F186A58BC1698922890FA47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E47EAD511D067DAE00AEEB8E /* WellesleyAccessibility */,
-				E47EAD501D067DAE00AEEB8E /* Products */,
+				FDB111A3098669BB23D9F7F7 /* libPods-WellesleyAccessibility.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A731CFDC43A2A2D4D44832FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C37797FA1F7762D2E279C9CF /* Pods-WellesleyAccessibility.debug.xcconfig */,
+				A0589F0075D048AE0C683843 /* Pods-WellesleyAccessibility.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4910EC71D07E40B0000AD99 = {
+			isa = PBXGroup;
+			children = (
+				E4910EE51D07E4150000AD99 /* Podfile */,
+				E4910ED21D07E40B0000AD99 /* WellesleyAccessibility */,
+				E4910ED11D07E40B0000AD99 /* Products */,
+				A731CFDC43A2A2D4D44832FC /* Pods */,
+				8F186A58BC1698922890FA47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		E47EAD501D067DAE00AEEB8E /* Products */ = {
+		E4910ED11D07E40B0000AD99 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E47EAD4F1D067DAE00AEEB8E /* WellesleyAccessibility.app */,
+				E4910ED01D07E40B0000AD99 /* WellesleyAccessibility.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E47EAD511D067DAE00AEEB8E /* WellesleyAccessibility */ = {
+		E4910ED21D07E40B0000AD99 /* WellesleyAccessibility */ = {
 			isa = PBXGroup;
 			children = (
-				E47EAD521D067DAF00AEEB8E /* AppDelegate.swift */,
-				E47EAD541D067DAF00AEEB8E /* FirstViewController.swift */,
-				E47EAD561D067DAF00AEEB8E /* SecondViewController.swift */,
-				E47EAD581D067DAF00AEEB8E /* Main.storyboard */,
-				E47EAD5B1D067DAF00AEEB8E /* Assets.xcassets */,
-				E47EAD5D1D067DAF00AEEB8E /* LaunchScreen.storyboard */,
-				E47EAD601D067DAF00AEEB8E /* Info.plist */,
+				E4910EE91D07EBA90000AD99 /* BridgeHeader.h */,
+				E4910ED31D07E40B0000AD99 /* AppDelegate.swift */,
+				E4910ED51D07E40B0000AD99 /* ViewController.swift */,
+				E4910ED71D07E40B0000AD99 /* Main.storyboard */,
+				E4910EDA1D07E40B0000AD99 /* Assets.xcassets */,
+				E4910EDC1D07E40B0000AD99 /* LaunchScreen.storyboard */,
+				E4910EDF1D07E40B0000AD99 /* Info.plist */,
 			);
 			path = WellesleyAccessibility;
 			sourceTree = "<group>";
@@ -70,13 +96,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E47EAD4E1D067DAE00AEEB8E /* WellesleyAccessibility */ = {
+		E4910ECF1D07E40B0000AD99 /* WellesleyAccessibility */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E47EAD631D067DAF00AEEB8E /* Build configuration list for PBXNativeTarget "WellesleyAccessibility" */;
+			buildConfigurationList = E4910EE21D07E40B0000AD99 /* Build configuration list for PBXNativeTarget "WellesleyAccessibility" */;
 			buildPhases = (
-				E47EAD4B1D067DAE00AEEB8E /* Sources */,
-				E47EAD4C1D067DAE00AEEB8E /* Frameworks */,
-				E47EAD4D1D067DAE00AEEB8E /* Resources */,
+				6A6FC1977363CAF566A7A0AE /* [CP] Check Pods Manifest.lock */,
+				E4910ECC1D07E40B0000AD99 /* Sources */,
+				E4910ECD1D07E40B0000AD99 /* Frameworks */,
+				E4910ECE1D07E40B0000AD99 /* Resources */,
+				51E73E4B740DED36F266F9E6 /* [CP] Embed Pods Frameworks */,
+				3130BA7AD3E2BF7BB2497478 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +113,25 @@
 			);
 			name = WellesleyAccessibility;
 			productName = WellesleyAccessibility;
-			productReference = E47EAD4F1D067DAE00AEEB8E /* WellesleyAccessibility.app */;
+			productReference = E4910ED01D07E40B0000AD99 /* WellesleyAccessibility.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E47EAD471D067DAE00AEEB8E /* Project object */ = {
+		E4910EC81D07E40B0000AD99 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Rosanne and Vikram";
 				TargetAttributes = {
-					E47EAD4E1D067DAE00AEEB8E = {
+					E4910ECF1D07E40B0000AD99 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
-			buildConfigurationList = E47EAD4A1D067DAE00AEEB8E /* Build configuration list for PBXProject "WellesleyAccessibility" */;
+			buildConfigurationList = E4910ECB1D07E40B0000AD99 /* Build configuration list for PBXProject "WellesleyAccessibility" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,55 +139,103 @@
 				en,
 				Base,
 			);
-			mainGroup = E47EAD461D067DAE00AEEB8E;
-			productRefGroup = E47EAD501D067DAE00AEEB8E /* Products */;
+			mainGroup = E4910EC71D07E40B0000AD99;
+			productRefGroup = E4910ED11D07E40B0000AD99 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E47EAD4E1D067DAE00AEEB8E /* WellesleyAccessibility */,
+				E4910ECF1D07E40B0000AD99 /* WellesleyAccessibility */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E47EAD4D1D067DAE00AEEB8E /* Resources */ = {
+		E4910ECE1D07E40B0000AD99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E47EAD5F1D067DAF00AEEB8E /* LaunchScreen.storyboard in Resources */,
-				E47EAD5C1D067DAF00AEEB8E /* Assets.xcassets in Resources */,
-				E47EAD5A1D067DAF00AEEB8E /* Main.storyboard in Resources */,
+				E4910EDE1D07E40B0000AD99 /* LaunchScreen.storyboard in Resources */,
+				E4910EDB1D07E40B0000AD99 /* Assets.xcassets in Resources */,
+				E4910EE61D07E4150000AD99 /* Podfile in Resources */,
+				E4910ED91D07E40B0000AD99 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3130BA7AD3E2BF7BB2497478 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WellesleyAccessibility/Pods-WellesleyAccessibility-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E73E4B740DED36F266F9E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WellesleyAccessibility/Pods-WellesleyAccessibility-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A6FC1977363CAF566A7A0AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		E47EAD4B1D067DAE00AEEB8E /* Sources */ = {
+		E4910ECC1D07E40B0000AD99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E47EAD571D067DAF00AEEB8E /* SecondViewController.swift in Sources */,
-				E47EAD531D067DAF00AEEB8E /* AppDelegate.swift in Sources */,
-				E47EAD551D067DAF00AEEB8E /* FirstViewController.swift in Sources */,
+				E4910ED61D07E40B0000AD99 /* ViewController.swift in Sources */,
+				E4910ED41D07E40B0000AD99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E47EAD581D067DAF00AEEB8E /* Main.storyboard */ = {
+		E4910ED71D07E40B0000AD99 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E47EAD591D067DAF00AEEB8E /* Base */,
+				E4910ED81D07E40B0000AD99 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E47EAD5D1D067DAF00AEEB8E /* LaunchScreen.storyboard */ = {
+		E4910EDC1D07E40B0000AD99 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E47EAD5E1D067DAF00AEEB8E /* Base */,
+				E4910EDD1D07E40B0000AD99 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +243,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E47EAD611D067DAF00AEEB8E /* Debug */ = {
+		E4910EE01D07E40B0000AD99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -211,7 +288,7 @@
 			};
 			name = Debug;
 		};
-		E47EAD621D067DAF00AEEB8E /* Release */ = {
+		E4910EE11D07E40B0000AD99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,50 +326,54 @@
 			};
 			name = Release;
 		};
-		E47EAD641D067DAF00AEEB8E /* Debug */ = {
+		E4910EE31D07E40B0000AD99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37797FA1F7762D2E279C9CF /* Pods-WellesleyAccessibility.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WellesleyAccessibility/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Rosanne-and-Vikram.WellesleyAccessibility";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgeHeader.h;
 			};
 			name = Debug;
 		};
-		E47EAD651D067DAF00AEEB8E /* Release */ = {
+		E4910EE41D07E40B0000AD99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0589F0075D048AE0C683843 /* Pods-WellesleyAccessibility.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WellesleyAccessibility/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Rosanne-and-Vikram.WellesleyAccessibility";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = BridgeHeader.h;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E47EAD4A1D067DAE00AEEB8E /* Build configuration list for PBXProject "WellesleyAccessibility" */ = {
+		E4910ECB1D07E40B0000AD99 /* Build configuration list for PBXProject "WellesleyAccessibility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E47EAD611D067DAF00AEEB8E /* Debug */,
-				E47EAD621D067DAF00AEEB8E /* Release */,
+				E4910EE01D07E40B0000AD99 /* Debug */,
+				E4910EE11D07E40B0000AD99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E47EAD631D067DAF00AEEB8E /* Build configuration list for PBXNativeTarget "WellesleyAccessibility" */ = {
+		E4910EE21D07E40B0000AD99 /* Build configuration list for PBXNativeTarget "WellesleyAccessibility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E47EAD641D067DAF00AEEB8E /* Debug */,
-				E47EAD651D067DAF00AEEB8E /* Release */,
+				E4910EE31D07E40B0000AD99 /* Debug */,
+				E4910EE41D07E40B0000AD99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E47EAD471D067DAE00AEEB8E /* Project object */;
+	rootObject = E4910EC81D07E40B0000AD99 /* Project object */;
 }
