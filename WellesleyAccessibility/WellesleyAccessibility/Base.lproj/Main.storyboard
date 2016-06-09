@@ -16,9 +16,24 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tlk-1J-iFe" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tlk-1J-iFe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="E1j-xQ-lIE"/>
+                            <constraint firstItem="tlk-1J-iFe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GL2-ew-MHq"/>
+                            <constraint firstItem="tlk-1J-iFe" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="idt-aO-xUs"/>
+                            <constraint firstAttribute="trailing" secondItem="tlk-1J-iFe" secondAttribute="trailing" id="oI2-By-GzU"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Wellesley" id="H1b-8d-wvL"/>
+                    <connections>
+                        <outlet property="mapView" destination="tlk-1J-iFe" id="Td9-Gb-jah"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
