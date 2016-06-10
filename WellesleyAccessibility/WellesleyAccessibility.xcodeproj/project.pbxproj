@@ -14,6 +14,7 @@
 		E4910EDB1D07E40B0000AD99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4910EDA1D07E40B0000AD99 /* Assets.xcassets */; };
 		E4910EDE1D07E40B0000AD99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4910EDC1D07E40B0000AD99 /* LaunchScreen.storyboard */; };
 		E4910EE61D07E4150000AD99 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E4910EE51D07E4150000AD99 /* Podfile */; };
+		E4D93B4A1D0A359100DB1261 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D93B491D0A359100DB1261 /* InformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E4910EDF1D07E40B0000AD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4910EE51D07E4150000AD99 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E4910EE91D07EBA90000AD99 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BridgeHeader.h; path = ../BridgeHeader.h; sourceTree = "<group>"; };
+		E4D93B491D0A359100DB1261 /* InformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		FDB111A3098669BB23D9F7F7 /* libPods-WellesleyAccessibility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WellesleyAccessibility.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 				E4910ED31D07E40B0000AD99 /* AppDelegate.swift */,
 				E4910ED51D07E40B0000AD99 /* ViewController.swift */,
 				E4910ED71D07E40B0000AD99 /* Main.storyboard */,
+				E4D93B491D0A359100DB1261 /* InformationViewController.swift */,
 				E4910EDA1D07E40B0000AD99 /* Assets.xcassets */,
 				E4910EDC1D07E40B0000AD99 /* LaunchScreen.storyboard */,
 				E4910EDF1D07E40B0000AD99 /* Info.plist */,
@@ -218,6 +221,7 @@
 			files = (
 				E4910ED61D07E40B0000AD99 /* ViewController.swift in Sources */,
 				E4910ED41D07E40B0000AD99 /* AppDelegate.swift in Sources */,
+				E4D93B4A1D0A359100DB1261 /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +267,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -279,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -308,6 +313,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -318,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
