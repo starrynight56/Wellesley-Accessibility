@@ -22,7 +22,12 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
     let wheelchairRamps: [ramp] = [ramp(latitude: 42.288388, longitude: -71.302619, bearing: 305),//meticulous hardcoded bs
                                    ramp(latitude: 42.289770, longitude: -71.301117, bearing: 258),
                                    ramp(latitude: 42.290682, longitude: -71.302286, bearing: 175),
-                                   ramp(latitude: 42.291301, longitude: -71.303023, bearing: 184)]
+                                   ramp(latitude: 42.291301, longitude: -71.303023, bearing: 184),
+                                   ramp(latitude: 42.292063, longitude: -71.299888, bearing: 160),
+                                   ramp(latitude: 42.292250, longitude: -71.300832, bearing: 145),
+                                   ramp(latitude: 42.291392, longitude: -71.304294, bearing: 290),
+                                   ramp(latitude: 42.291383, longitude: -71.304814, bearing: 80),
+                                   ramp(latitude: 42.291323, longitude: -71.305165, bearing: 195)]
     
     var markerList: [GMSMarker] = [GMSMarker]()//list of acccessible entrance markers
     var overlayList: [GMSGroundOverlay] = [GMSGroundOverlay]()//list of triangle thingies to represent accessible entrances
@@ -182,7 +187,7 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
     }
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
 
-        zoom = 16.5//zoom into user
+        zoom = 18//zoom into user
         
         let initialLoc = locations.last//last location of the user
         let latitude = initialLoc!.coordinate.latitude
