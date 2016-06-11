@@ -31,6 +31,19 @@
                                             <segue destination="h7A-ak-Kt7" kind="modal" id="YOg-Gh-W7L"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tig-9h-rb1">
+                                        <rect key="frame" x="8" y="9" width="32" height="32"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" image="wheelchairButton"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="3"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="wheelchairShow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rgm-Gq-8Df"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -98,7 +111,6 @@
                                                 <rect key="frame" x="70" y="11" width="180" height="29"/>
                                                 <segments>
                                                     <segment title="Normal"/>
-                                                    <segment title="Terrain"/>
                                                     <segment title="Satellite"/>
                                                 </segments>
                                                 <connections>
@@ -235,4 +247,7 @@
             <point key="canvasLocation" x="218" y="228"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="wheelchairButton" width="32" height="32"/>
+    </resources>
 </document>
