@@ -105,7 +105,7 @@ class ViewController: UIViewController, GMSMapViewDelegate{
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        var destination : InformationViewController = segue.destinationViewController as! InformationViewController
+        let destination : InformationViewController = segue.destinationViewController as! InformationViewController
         
         destination.mapViewController = self
     }
