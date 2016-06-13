@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AA83DF10D5459D34E70229FA /* libPods-WellesleyAccessibility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB111A3098669BB23D9F7F7 /* libPods-WellesleyAccessibility.a */; };
+		E431105D1D0BAF7300B45A96 /* wellesley.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E431105C1D0BAF7300B45A96 /* wellesley.gpx */; };
+		E431105F1D0BB2D400B45A96 /* wellesley2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E431105E1D0BB2D400B45A96 /* wellesley2.gpx */; };
 		E4910ED41D07E40B0000AD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4910ED31D07E40B0000AD99 /* AppDelegate.swift */; };
 		E4910ED61D07E40B0000AD99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4910ED51D07E40B0000AD99 /* ViewController.swift */; };
 		E4910ED91D07E40B0000AD99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4910ED71D07E40B0000AD99 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		A0589F0075D048AE0C683843 /* Pods-WellesleyAccessibility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellesleyAccessibility.release.xcconfig"; path = "Pods/Target Support Files/Pods-WellesleyAccessibility/Pods-WellesleyAccessibility.release.xcconfig"; sourceTree = "<group>"; };
 		C37797FA1F7762D2E279C9CF /* Pods-WellesleyAccessibility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellesleyAccessibility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WellesleyAccessibility/Pods-WellesleyAccessibility.debug.xcconfig"; sourceTree = "<group>"; };
+		E431105C1D0BAF7300B45A96 /* wellesley.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wellesley.gpx; sourceTree = "<group>"; };
+		E431105E1D0BB2D400B45A96 /* wellesley2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wellesley2.gpx; sourceTree = "<group>"; };
 		E4910ED01D07E40B0000AD99 /* WellesleyAccessibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellesleyAccessibility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4910ED31D07E40B0000AD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4910ED51D07E40B0000AD99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				E4910ED31D07E40B0000AD99 /* AppDelegate.swift */,
 				E4910ED51D07E40B0000AD99 /* ViewController.swift */,
 				E4910ED71D07E40B0000AD99 /* Main.storyboard */,
+				E431105C1D0BAF7300B45A96 /* wellesley.gpx */,
+				E431105E1D0BB2D400B45A96 /* wellesley2.gpx */,
 				E4D93B491D0A359100DB1261 /* InformationViewController.swift */,
 				E4910EDA1D07E40B0000AD99 /* Assets.xcassets */,
 				E4910EDC1D07E40B0000AD99 /* LaunchScreen.storyboard */,
@@ -157,7 +163,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E431105D1D0BAF7300B45A96 /* wellesley.gpx in Resources */,
 				E4910EDE1D07E40B0000AD99 /* LaunchScreen.storyboard in Resources */,
+				E431105F1D0BB2D400B45A96 /* wellesley2.gpx in Resources */,
 				E4910EDB1D07E40B0000AD99 /* Assets.xcassets in Resources */,
 				E4910EE61D07E4150000AD99 /* Podfile in Resources */,
 				E4910ED91D07E40B0000AD99 /* Main.storyboard in Resources */,
