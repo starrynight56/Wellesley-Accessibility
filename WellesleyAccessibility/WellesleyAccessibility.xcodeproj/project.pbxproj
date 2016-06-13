@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA83DF10D5459D34E70229FA /* libPods-WellesleyAccessibility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB111A3098669BB23D9F7F7 /* libPods-WellesleyAccessibility.a */; };
 		E431105D1D0BAF7300B45A96 /* wellesley.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E431105C1D0BAF7300B45A96 /* wellesley.gpx */; };
 		E431105F1D0BB2D400B45A96 /* wellesley2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = E431105E1D0BB2D400B45A96 /* wellesley2.gpx */; };
+		E45217011D0E9DC9000891EC /* libPods-WellesleyAccessibility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45217001D0E9DC9000891EC /* libPods-WellesleyAccessibility.a */; };
 		E4910ED41D07E40B0000AD99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4910ED31D07E40B0000AD99 /* AppDelegate.swift */; };
 		E4910ED61D07E40B0000AD99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4910ED51D07E40B0000AD99 /* ViewController.swift */; };
 		E4910ED91D07E40B0000AD99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4910ED71D07E40B0000AD99 /* Main.storyboard */; };
@@ -24,6 +24,7 @@
 		C37797FA1F7762D2E279C9CF /* Pods-WellesleyAccessibility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WellesleyAccessibility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WellesleyAccessibility/Pods-WellesleyAccessibility.debug.xcconfig"; sourceTree = "<group>"; };
 		E431105C1D0BAF7300B45A96 /* wellesley.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wellesley.gpx; sourceTree = "<group>"; };
 		E431105E1D0BB2D400B45A96 /* wellesley2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wellesley2.gpx; sourceTree = "<group>"; };
+		E45217001D0E9DC9000891EC /* libPods-WellesleyAccessibility.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-WellesleyAccessibility.a"; path = "../../Library/Developer/Xcode/DerivedData/WellesleyAccessibility-epbjrasbttixpeggtlifnylpvynh/Build/Products/Debug-iphonesimulator/libPods-WellesleyAccessibility.a"; sourceTree = "<group>"; };
 		E4910ED01D07E40B0000AD99 /* WellesleyAccessibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WellesleyAccessibility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4910ED31D07E40B0000AD99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4910ED51D07E40B0000AD99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA83DF10D5459D34E70229FA /* libPods-WellesleyAccessibility.a in Frameworks */,
+				E45217011D0E9DC9000891EC /* libPods-WellesleyAccessibility.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +53,7 @@
 		8F186A58BC1698922890FA47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E45217001D0E9DC9000891EC /* libPods-WellesleyAccessibility.a */,
 				FDB111A3098669BB23D9F7F7 /* libPods-WellesleyAccessibility.a */,
 			);
 			name = Frameworks;
@@ -258,7 +260,7 @@
 		E4910EE01D07E40B0000AD99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -304,7 +306,7 @@
 		E4910EE11D07E40B0000AD99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -345,7 +347,9 @@
 			baseConfigurationReference = C37797FA1F7762D2E279C9CF /* Pods-WellesleyAccessibility.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WellesleyAccessibility/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Rosanne-and-Vikram.WellesleyAccessibility";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -358,7 +362,9 @@
 			baseConfigurationReference = A0589F0075D048AE0C683843 /* Pods-WellesleyAccessibility.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = WellesleyAccessibility/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Rosanne-and-Vikram.WellesleyAccessibility";
 				PRODUCT_NAME = "$(TARGET_NAME)";

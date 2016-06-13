@@ -193,6 +193,7 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
         let latitude = initialLoc!.coordinate.latitude
         let longitude = initialLoc!.coordinate.longitude
 
+        print("update location")
         //check if initalLoc is in the campus
         if(latitude>42.287959 && latitude<42.296429 && longitude > -71.318803 && longitude < -71.295299)
         {
