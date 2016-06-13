@@ -189,7 +189,6 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
 
         zoom = 18//zoom into user
         
-        let destination : InformationViewController = segue.destinationViewController as! InformationViewController
         let initialLoc = locations.last//last location of the user
         let latitude = initialLoc!.coordinate.latitude
         let longitude = initialLoc!.coordinate.longitude
