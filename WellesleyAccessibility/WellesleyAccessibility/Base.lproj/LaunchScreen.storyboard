@@ -21,7 +21,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eXQ-VX-cRS">
                                 <rect key="frame" x="35" y="159" width="250" height="250"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wellesley college" translatesAutoresizingMaskIntoConstraints="NO" id="wfb-n4-Ghy">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wellesley" translatesAutoresizingMaskIntoConstraints="NO" id="wfb-n4-Ghy">
                                         <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="wfb-n4-Ghy" secondAttribute="height" multiplier="1:1" id="4j0-4h-hJQ"/>
@@ -32,7 +32,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0078431372550000003" green="0.1529411765" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="eXQ-VX-cRS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="d8h-Gv-vTb"/>
                             <constraint firstItem="eXQ-VX-cRS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="n4T-Ao-Iuv"/>
@@ -45,6 +45,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="wellesley college" width="250" height="250"/>
+        <image name="Wellesley" width="530" height="500"/>
     </resources>
 </document>
